@@ -1,0 +1,68 @@
+baseURL: http://chewz.io
+languageCode: en-us
+title: Chewz
+theme: hugo-fresh
+
+params:
+  navbarlogo:
+  # Logo (from static/images/logos/___)
+   image: logos/fresh6.png
+   link: /
+  font:
+    name: "Open Sans"
+    sizes: [400,600]
+  hero:
+    title: Deciding what to eat was never so easy.
+    subtitle: Get the app and start chewzing!
+    buttontext: Download beta
+    buttonlink: "/app"
+    # Hero image (from static/images/___)
+    image: illustrations/worker1.png
+  navbar:
+  - title: Chewz API for Restaurants
+    url: #api
+  section1:
+    title: Our goal is to take the work out of chewzing
+    tiles:
+    - title: Chewz smarter, not harder
+      icon: mouse-globe
+      text: 50x faster than your normal fewd chewzing experience. 
+      url: /
+      buttonText: Learn how Chewz works
+    - title: AI + fewd = yummier life 
+      icon: laptop-cloud
+      text: Chewz's AI takes food selection to the next level.
+      url: /
+      buttonText: Learn about Chewz Science
+    - title: Chewz with your friends
+      icon: plug-cloud
+      text: You’re busy, so are your friends. Party chewzing!
+      url: /
+      buttonText: Learn how Groups works
+  section2: false
+  section3: false
+  section4:
+    title: Everybody is Chewzing
+    clients:
+    - name: 
+      quote: Finding good vegan restaurants is hard! Every time you want to try a new dish, you never know what you will get! When I chewz I have access to many more menu pictures! I love it!
+      img: 1
+    - name: 
+      quote: So many options, restaurants, and most of the menus item don't have pictures. Chewz transforms the way you experience eating. It’s no longer a task. It’s straight to the point.
+      img: 2
+    - name: 
+      quote: Every time my friends and I needed to pick what to eat, we used to spend hours trying to decide which restaurant. It was so tiring! Now we are chewzing and having a good time.
+      img: 3
+  section5: false
+  footer:
+    socialmedia:
+    - link: https://www.facebook.com/chewzapp/
+      icon: facebook
+    - link: https://www.linkedin.com/company/chewzapp
+      icon: linkedin
+    quicklinks:
+      column1:
+        title: "About Us"
+        links:
+        - text: Our Story
+          link: /ourstory

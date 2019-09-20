@@ -1,15 +1,17 @@
-FROM node:8-slim
+FROM debian:latest
 
-WORKDIR /starter
-ENV NODE_ENV development
+ENV HUGO_VERSION 0.58.2 
 
-COPY package.json /starter/package.json
+ENV HUGO_BINARY hugo_${HUGO_VERSION}_Linux-64bit.deb
 
-RUN npm install --production
+ADD https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/${HUGO_BINARY} /tmp/hugo.deb
+RUN dpkg -i /tmp/hugo.deb && rm /tmp/hugo.deb
 
-COPY .env.example /starter/.env.example
-COPY . /starter
 
-CMD ["npm","start"]
+EXPOSE 1313
+VOLUME /app
+WORKDIR /app
 
-EXPOSE 8080
+COPY website /app
+
+CMD ["hugo", "server", "--disableFastRender", "--bind=0.0.0.0"]

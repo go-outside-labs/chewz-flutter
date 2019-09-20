@@ -1,9 +1,6 @@
 start_service:
 	sudo service docker start
 
-install:
-	npm install
-
 run:
 	docker-compose up
 

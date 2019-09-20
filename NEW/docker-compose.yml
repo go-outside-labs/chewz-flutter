@@ -1,0 +1,9 @@
+version: '3'
+services:
+  web:
+    build: .
+    ports:
+     - "1313:1313"
+    volumes:
+     - website:/app
+     

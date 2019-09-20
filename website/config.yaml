@@ -24,17 +24,17 @@ params:
     title: Our goal is to take the work out of chewzing
     tiles:
     - title: Chewz smarter, not harder
-      icon: mouse-globe
+      icon: card3
       text: 50x faster than your normal fewd chewzing experience. 
       url: /
       buttonText: Learn how Chewz works
     - title: AI + fewd = yummier life 
-      icon: laptop-cloud
+      icon: card5
       text: Chewz's AI takes food selection to the next level.
       url: /
       buttonText: Learn about Chewz Science
     - title: Chewz with your friends
-      icon: plug-cloud
+      icon: card2
       text: You’re busy, so are your friends. Party chewzing!
       url: /
       buttonText: Learn how Groups works

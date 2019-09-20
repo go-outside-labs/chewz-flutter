@@ -14,7 +14,7 @@ params:
     title: Deciding what to eat was never so easy.
     subtitle: Get the app and start chewzing!
     buttontext: Download beta
-    buttonlink: "/app"
+    buttonlink: /
     # Hero image (from static/images/___)
     image: illustrations/worker1.png
   navbar:

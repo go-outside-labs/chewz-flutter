@@ -10,4 +10,7 @@ stop:
 logs:
 	docker-compose logs -f
 
-.PHONY: run install
+dc_clean:
+	docker-compose build --no-cache
+
+.PHONY: run install start_service dc_clean logs

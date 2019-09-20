@@ -26,19 +26,19 @@ params:
     tiles:
     - title: Chewz smarter, not harder
       icon: mouse-globe
-      text: This is some explanatory text that is on two rows
+      text: 50x faster than your normal fewd chewzing experience. 
       url: /
       buttonText: Learn how Chewz works
-    - title: Machine learning for food
+    - title: Machine learning for fewd
       icon: laptop-cloud
-      text: This is some explanatory text that is on two rows
+      text: Chewz's AI takes fewd selection to the next level.
       url: /
       buttonText: Learn about Chewz Science
     - title: Chewz with your friends
       icon: plug-cloud
-      text: 50x faster than your normal fewd chewzing experience
+      text: You’re busy, so are your friends. Party chewzing!
       url: /
-      buttonText: Learn about Chewz Groups
+      buttonText: Learn how Groups works
   section2: false
   section3: false
   section4:

@@ -64,4 +64,4 @@ params:
         title: "About Us"
         links:
         - text: Our Story
-          link: /ourstory
+          link: /

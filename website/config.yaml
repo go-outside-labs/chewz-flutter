@@ -5,7 +5,7 @@ theme: hugo-fresh
 
 params:
   navbarlogo:
-   image: logos/f1.png
+   image: logos/f2.png
    link: /
   font:
     name: "Open Sans"

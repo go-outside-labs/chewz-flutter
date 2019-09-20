@@ -4,9 +4,6 @@ title: Chewz
 theme: hugo-fresh
 
 params:
-  navbarlogo:
-   image: logos/f2.png
-   link: /
   font:
     name: "Open Sans"
     sizes: [400,600]
@@ -17,9 +14,6 @@ params:
     buttonlink: /
     # Hero image (from static/images/___)
     image: illustrations/worker1.png
-  navbar:
-  - title: Chewz API for Restaurants
-    url: 
   section1:
     title: Our goal is to take the work out of chewzing
     tiles:

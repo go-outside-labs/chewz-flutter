@@ -59,4 +59,6 @@ params:
         links:
         - text: Our Story
           link: /
+        - text: Chewz API for Restaurants
+          link: /
 

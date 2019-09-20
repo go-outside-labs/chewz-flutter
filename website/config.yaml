@@ -5,7 +5,7 @@ theme: hugo-fresh
 
 params:
   navbarlogo:
-   image: logos/fresh6.png
+   image: logos/f1.png
    link: /
   font:
     name: "Open Sans"
@@ -19,7 +19,7 @@ params:
     image: illustrations/worker1.png
   navbar:
   - title: Chewz API for Restaurants
-    url: #api
+    url: 
   section1:
     title: Our goal is to take the work out of chewzing
     tiles:
@@ -61,7 +61,8 @@ params:
       icon: linkedin
     quicklinks:
       column1:
-        title: "About Us"
+        title: About Us
         links:
         - text: Our Story
           link: /
+

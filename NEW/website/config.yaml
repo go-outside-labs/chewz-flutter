@@ -22,24 +22,23 @@ params:
   - title: Chewz API for Restaurants
     url: #api
   section1:
-    title: Chewz API for Restaurants
-    subtitle: with great responsibility
+    title: Our goal is to take the work out of chewzing
     tiles:
-    - title: App builder
+    - title: Chewz smarter, not harder
       icon: mouse-globe
       text: This is some explanatory text that is on two rows
       url: /
-      buttonText: Free trial
-    - title: Cloud integration
+      buttonText: Learn how Chewz works
+    - title: Machine learning for food
       icon: laptop-cloud
       text: This is some explanatory text that is on two rows
       url: /
-      buttonText: Get started
-    - title: Add-ons & plugins
+      buttonText: Learn about Chewz Science
+    - title: Chewz with your friends
       icon: plug-cloud
-      text: This is some explanatory text that is on two rows
+      text: 50x faster than your normal fewd chewzing experience
       url: /
-      buttonText: Get started
+      buttonText: Learn about Chewz Groups
   section2: false
   section3: false
   section4:

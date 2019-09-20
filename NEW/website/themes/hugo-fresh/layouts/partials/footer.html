@@ -6,6 +6,11 @@
 <footer class="footer footer-dark">
   <div class="container">
     <div class="columns">
+      <div class="column">
+        <div class="footer-logo">
+          <img src="{{ printf "/images/logos/%s" $logo | relURL }}">
+        </div>
+      </div>
       {{- range $quickLinks }}
         <div class="column">
           <div class="footer-column">
@@ -38,20 +43,14 @@
               </div>
             </nav>
 
-
+            {{- if $bulmaLogo }}
+            <a href="https://bulma.io" target="_blank">
+              <img src="{{ "/images/logos/made-with-bulma.png" | relURL }}" alt="Made with Bulma" width="128" height="24">
+            </a>
+            {{- end }}
           </div>
         </div>
       </div>
-      <div class="column">
-        <div class="footer-column">
-          <div class="footer-header">
-            <h4>Copyright © 2019 Chewz. All rights reserved.</h4>
-            <h3></h3>
-            Made with ♥️ in Los Angeles, CA
-          </div>
-        </div>
-      </div>
-
     </div>
   </div>
 </footer>

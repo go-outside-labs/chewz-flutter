@@ -239,10 +239,10 @@ th {
 
 html {
   background-color: white;
-  font-size: 14px;
+  font-size: 16px;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  min-width: 200px;
+  min-width: 300px;
   overflow-x: hidden;
   overflow-y: scroll;
   text-rendering: optimizeLegibility;
@@ -272,9 +272,9 @@ pre {
 
 body {
   color: #4a4a4a;
-  font-size: 1.2rem;
-  font-weight: 700;
-  line-height: 1; }
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5; }
 
 a {
   color: #3273dc;
@@ -296,12 +296,12 @@ hr {
   background-color: whitesmoke;
   border: none;
   display: block;
-  height: 1px;
-  margin: 1rem 0; }
+  height: 2px;
+  margin: 1.5rem 0; }
 
 img {
   height: auto;
-  max-width: auto; }
+  max-width: 100%; }
 
 input[type="checkbox"],
 input[type="radio"] {
@@ -324,7 +324,7 @@ pre {
   color: #4a4a4a;
   font-size: 0.875em;
   overflow-x: auto;
-  padding: 1.5rem 1.5rem;
+  padding: 1.25rem 1.5rem;
   white-space: pre;
   word-wrap: normal; }
   pre code {
@@ -3221,7 +3221,7 @@ a.tag:hover {
     vertical-align: middle; }
 
 .title {
-  color: #ff3860;
+  color: #363636;
   font-size: 2rem;
   font-weight: 600;
   line-height: 1.125; }
@@ -3599,7 +3599,7 @@ a.dropdown-item {
     border-radius: 2px;
     color: #4a4a4a;
     display: block;
-    padding: 0.75em 0.75em; }
+    padding: 0.5em 0.75em; }
     .menu-list a:hover {
       background-color: whitesmoke;
       color: #363636; }
@@ -6098,16 +6098,16 @@ label.panel-block {
         .hero.is-danger.is-bold .navbar-menu {
           background-image: linear-gradient(141deg, #ff0561 0%, #ff3860 71%, #ff5257 100%); } }
   .hero.is-small .hero-body {
-    padding-bottom: 1rem;
-    padding-top: 1rem; }
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem; }
   @media screen and (min-width: 769px), print {
     .hero.is-medium .hero-body {
-      padding-bottom: 5rem;
-      padding-top: 5rem; } }
+      padding-bottom: 9rem;
+      padding-top: 9rem; } }
   @media screen and (min-width: 769px), print {
     .hero.is-large .hero-body {
-      padding-bottom: 15rem;
-      padding-top: 15rem; } }
+      padding-bottom: 18rem;
+      padding-top: 18rem; } }
   .hero.is-halfheight .hero-body, .hero.is-fullheight .hero-body {
     align-items: center;
     display: flex; }
@@ -6156,19 +6156,19 @@ label.panel-block {
 .hero-body {
   flex-grow: 1;
   flex-shrink: 0;
-  padding: 2rem 1.5rem; }
+  padding: 3rem 1.5rem; }
 
 .section {
   padding: 3rem 1.5rem; }
   @media screen and (min-width: 1088px) {
     .section.is-medium {
-      padding: 4rem 1.5rem; }
+      padding: 9rem 1.5rem; }
     .section.is-large {
-      padding: 5rem 1.5rem; } }
+      padding: 18rem 1.5rem; } }
 
 .footer {
   background-color: #fafafa;
-  padding: 2rem 1.5rem 3rem; }
+  padding: 3rem 1.5rem 6rem; }
 
 /* ==========================================================================
 Main SCSS file / Fresh
@@ -6395,12 +6395,12 @@ img.pushed-image {
 Hero styles
 ========================================================================== */
 .hero-body {
-  padding-top: 4rem;
-  padding-bottom: 4rem; }
+  padding-top: 6rem;
+  padding-bottom: 6rem; }
   .hero-body .title, .hero-body .subtitle {
     font-family: 'Open Sans', sans-serif; }
   .hero-body .title.is-bold {
-    font-weight: 800; }
+    font-weight: 700; }
   .hero-body .subtitle.is-muted {
     color: #999; }
 

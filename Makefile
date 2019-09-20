@@ -10,4 +10,7 @@ run:
 stop:
 	docker-compose down 
 
+logs:
+	docker-compose logs -f
+
 .PHONY: run install

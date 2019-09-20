@@ -1,31 +1,45 @@
-baseURL: http://chewz.io/
+baseURL: http://something-fresh.org/
 languageCode: en-us
-title: Chewz
+title: Hugo Fresh Theme
 theme: hugo-fresh
 
 params:
   navbarlogo:
-   title: Chewz
+  # Logo (from static/images/logos/___)
+   image: logos/fresh6.png
    link: /
   font:
     name: "Open Sans"
     sizes: [400,600]
   hero:
-    title: Chewz
-    # Hero subtitle (optional)
-    subtitle: Deciding what to eat was never so easy. Download the app and start chewzing!
-    # Button text
-    buttontext: Download beta 
-    # Where the main hero button links to
-    buttonlink: "/chewzapp"
+    title: Deciding what to eat was never so easy.
+    subtitle: Download the app and start chewzing!
+    buttontext: Download beta
+    buttonlink: "/app"
     # Hero image (from static/images/___)
     image: illustrations/worker1.png
   navbar:
-  - title: Chewz App
-    url: /chewzapp
-  - title: Chewz API
-    url: /chewzapi
-  section1: false
+  - title: Chewz API for Restaurants
+    url: #api
+  section1:
+    title: Chewz API for Restaurants
+    subtitle: with great responsibility
+    tiles:
+    - title: App builder
+      icon: mouse-globe
+      text: This is some explanatory text that is on two rows
+      url: /
+      buttonText: Free trial
+    - title: Cloud integration
+      icon: laptop-cloud
+      text: This is some explanatory text that is on two rows
+      url: /
+      buttonText: Get started
+    - title: Add-ons & plugins
+      icon: plug-cloud
+      text: This is some explanatory text that is on two rows
+      url: /
+      buttonText: Get started
   section2: false
   section3: false
   section4:
@@ -33,15 +47,12 @@ params:
     clients:
     - name: Tyler Blackman
       quote: Finding good vegan restaurants is hard! Every time you want try a new dish, you never know what you will get! When I chewz I have access to many more pictures! I love it!
-      job: Engineer
       img: 1
     - name: Collin Bradley
       quote: So many options, restaurants, and mostly of the menus item don't have pictures. I am busy, ain't nobody have time fo that! Chewz has not only improved my life, but also made me a better person.
-      job: Entrepreneur
       img: 2
-    - name: Michael Walters
+    - name: Michael Walter
       quote: Every time my friends and I need to pick what to eat, we spend hours trying to come with a restaurant. It's so tiring! With Chewz we now have fun in the process!
-      job: Artist
       img: 3
   section5: false
   footer:

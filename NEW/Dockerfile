@@ -12,6 +12,6 @@ EXPOSE 1313
 VOLUME /app
 WORKDIR /app
 
-
+COPY website /app
 
 CMD ["hugo", "server", "--disableFastRender", "--bind=0.0.0.0"]

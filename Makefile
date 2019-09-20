@@ -1,5 +1,5 @@
 start_service:
-	sudo service start
+	sudo service docker start
 
 install:
 	npm install

@@ -55,10 +55,8 @@ params:
       icon: linkedin
     quicklinks:
       column1:
-        title: About Us
+        title: Enterprise
         links:
-        - text: Our Story
-          link: /
         - text: Chewz API for Restaurants
           link: /
 

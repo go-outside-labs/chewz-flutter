@@ -12,7 +12,7 @@ params:
     title: Deciding what to eat was never so easy.
     subtitle: Get the app and start chewzing!
     buttontext: Download beta
-    buttonlink: /api/index.html
+    buttonlink: https://chewz-hugo-webiste.s3-us-west-1.amazonaws.com/app.md
     # Hero image (from static/images/___)
     image: illustrations/worker1.png
   section1:
@@ -21,17 +21,17 @@ params:
     - title: Chewz smarter, not harder
       icon: card3
       text: 50x faster than your normal fewd chewzing experience. 
-      url: /
+      url: https://chewz-hugo-webiste.s3-us-west-1.amazonaws.com/app_how.md
       buttonText: Learn how Chewz works
     - title: AI + fewd = yummier life 
       icon: card5
       text: Chewz's AI takes food selection to the next level.
-      url: /
+      url: https://chewz-hugo-webiste.s3-us-west-1.amazonaws.com/science.md
       buttonText: Learn about Chewz Science
     - title: Chewz with your friends
       icon: card2
       text: You’re busy, so are your friends. Party chewzing!
-      url: /
+      url: https://chewz-hugo-webiste.s3-us-west-1.amazonaws.com/party.md
       buttonText: Learn how Groups works
   section2: false
   section3: false
@@ -65,5 +65,5 @@ params:
         title: Enterprise
         links:
         - text: Chewz API for Restaurants
-          link: /
+          link: https://chewz-hugo-webiste.s3-us-west-1.amazonaws.com/api.md
 

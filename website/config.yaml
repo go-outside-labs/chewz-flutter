@@ -2,6 +2,7 @@ baseURL: http://chewz.io
 languageCode: en-us
 title: Chewz
 theme: hugo-fresh
+googleAnalytics: UA-148520805-1
 
 params:
   font:
@@ -49,14 +50,16 @@ params:
   section5: false
   footer:
     socialmedia:
-    - link: https://www.facebook.com/chewzapp/
+    - link: https://www.facebook.com/pg/Chewz-104710590927719
       icon: facebook
     - link: https://www.linkedin.com/company/chewzapp
       icon: linkedin
     - link: https://github.com/chewzapp
       icon: github
     - link: https://www.instagram.com/letschewz/
-      icon: instagram   
+      icon: instagram  
+    - link: https://twitter.com/letschewz
+      icon: twitter    
     quicklinks:
       column1:
         title: Enterprise

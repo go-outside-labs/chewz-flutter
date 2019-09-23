@@ -15,7 +15,7 @@ params:
     # Hero image (from static/images/___)
     image: illustrations/worker1.png
   section1:
-    title: Our goal is to take the work out of chewzing
+    title: Take the work out of chewzing 
     tiles:
     - title: Chewz smarter, not harder
       icon: card3

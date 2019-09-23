@@ -53,6 +53,10 @@ params:
       icon: facebook
     - link: https://www.linkedin.com/company/chewzapp
       icon: linkedin
+    - link: https://github.com/chewzapp
+      icon: github
+    - link: https://www.instagram.com/letschewz/
+      icon: instagram   
     quicklinks:
       column1:
         title: Enterprise

@@ -10,8 +10,8 @@ params:
     sizes: [400,600]
   hero:
     title: Deciding what to eat was never so easy.
-    subtitle: Get the app and start chewzing!
-    buttontext: Download beta
+    subtitle: Starting chewzing fewd with your friends
+    buttontext: Download Chewz
     buttonlink: https://mailchi.mp/0e92b7716009/chewz
     # Hero image (from static/images/___)
     image: illustrations/worker1.png

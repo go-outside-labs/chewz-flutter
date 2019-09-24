@@ -25,7 +25,7 @@ params:
       buttonText: So what is Chewz?
     - title: Chewz with your friends
       icon: card2
-      text: You’re busy, so are your friends. Party chewzing!
+      text: You’re busy, so are all your buddies. Time for chewzing!
       url: https://chewz.s3-us-west-1.amazonaws.com/chewz_group.html
       buttonText: Learn about Chews Friends
     - title: AI + fewd = yummier life 

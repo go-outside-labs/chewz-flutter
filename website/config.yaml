@@ -1,6 +1,6 @@
 baseURL: http://chewz.io
 languageCode: en-us
-title: Chewz - The Best Way to Find Fewd
+title: Chewzing fewd just got easy!
 theme: hugo-fresh
 googleAnalytics: UA-148520805-1
 
@@ -32,7 +32,7 @@ params:
       icon: card5
       text: Chewz's AI takes food selection to the next level.
       url: https://chewz.s3-us-west-1.amazonaws.com/chewz_science.html
-      buttonText: Learn about Chewz Science
+      buttonText: Learn about Chewz API
   section2: false
   section3: false
   section4:

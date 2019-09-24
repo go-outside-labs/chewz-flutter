@@ -31,7 +31,7 @@ params:
     - title: Chewz with your friends
       icon: card2
       text: You’re busy, so are your friends. Party chewzing!
-      url: https://chewz-hugo-webiste.s3-us-west-1.amazonaws.com/party.md
+      url: https://chewz.s3-us-west-1.amazonaws.com/chewz_group.html
       buttonText: Learn how Groups works
   section2: false
   section3: false

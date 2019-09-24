@@ -6203,7 +6203,7 @@ Navbar
   .navbar.is-fresh .navbar-item {
     color: #999; }
     .navbar.is-fresh .navbar-item.is-secondary:hover {
-      color: #7F00FF !important; }
+      color: #F39200 !important; }
     .navbar.is-fresh .navbar-item.has-dropdown {
       padding: 10px 0; }
       .navbar.is-fresh .navbar-item.has-dropdown .navbar-link {
@@ -6218,13 +6218,13 @@ Navbar
         top: 3.4rem;
         min-width: 220px;
         margin-top: 4px;
-        border-top-color: #7F00FF; }
+        border-top-color: #F39200; }
         .navbar.is-fresh .navbar-item.has-dropdown .navbar-dropdown .navbar-item {
           padding: 10px 20px; }
       .navbar.is-fresh .navbar-item.has-dropdown:hover .navbar-link {
-        color: #7F00FF; }
+        color: #F39200; }
         .navbar.is-fresh .navbar-item.has-dropdown:hover .navbar-link:after {
-          border-color: #7F00FF; }
+          border-color: #F39200; }
     .navbar.is-fresh .navbar-item .signup {
       display: block;
       line-height: 0;

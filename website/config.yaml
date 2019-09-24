@@ -21,7 +21,7 @@ params:
     - title: Chewz smarter, not harder
       icon: card3
       text: 50x faster than your normal fewd chewzing experience. 
-      url: https://chewz-hugo-webiste.s3-us-west-1.amazonaws.com/chewz_app.html
+      url: https://chewz.s3-us-west-1.amazonaws.com/chewz_app.html
       buttonText: Learn how Chewz works
     - title: AI + fewd = yummier life 
       icon: card5

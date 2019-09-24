@@ -64,6 +64,6 @@ params:
       column1:
         title: Enterprise
         links:
-        - text: Learn f Chewz for Restaurants
+        - text: Learn about Chewz for Restaurants
           link: http://bit.ly/chewz_api_form
 

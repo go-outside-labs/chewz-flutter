@@ -23,16 +23,16 @@ params:
       text: 50x faster than your normal fewd chewzing experience. 
       url: https://chewz.s3-us-west-1.amazonaws.com/chewz_app.html
       buttonText: Learn how Chewz works
-    - title: AI + fewd = yummier life 
-      icon: card5
-      text: Chewz's AI takes food selection to the next level.
-      url: https://chewz.s3-us-west-1.amazonaws.com/chewz_science.html
-      buttonText: Learn about Chewz Science
     - title: Chewz with your friends
       icon: card2
       text: You’re busy, so are your friends. Party chewzing!
       url: https://chewz.s3-us-west-1.amazonaws.com/chewz_group.html
       buttonText: Learn how Groups works
+    - title: AI + fewd = yummier life 
+      icon: card5
+      text: Chewz's AI takes food selection to the next level.
+      url: https://chewz.s3-us-west-1.amazonaws.com/chewz_science.html
+      buttonText: Learn about Chewz Science
   section2: false
   section3: false
   section4:

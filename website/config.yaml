@@ -28,7 +28,7 @@ params:
       text: You’re busy, so are all your buddies. Time for chewzing!
       url: https://chewz.s3-us-west-1.amazonaws.com/chewz_group.html
       buttonText: Learn about Chews Friends
-    - title: Science + fewd = yummier life 
+    - title: Science + fewd = 😋✨ 
       icon: card5
       text: Chewz's algorithm takes food selection to the next level.
       url: https://chewz.s3-us-west-1.amazonaws.com/chewz_science.html

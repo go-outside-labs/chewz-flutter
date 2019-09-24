@@ -18,7 +18,7 @@ params:
   section1:
     title: Take the work out of chewzing 
     tiles:
-      - title: Science + food = 😋✨ 
+    - title: Science + food = 😋✨ 
       icon: card5
       text: Chewz's algorithm takes food selection to the next level.
       url: https://chewz.s3-us-west-1.amazonaws.com/chewz_science.html

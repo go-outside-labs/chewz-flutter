@@ -26,7 +26,7 @@ params:
     - title: AI + fewd = yummier life 
       icon: card5
       text: Chewz's AI takes food selection to the next level.
-      url: 
+      url: https://chewz.s3-us-west-1.amazonaws.com/chewz_science.html
       buttonText: Learn about Chewz Science
     - title: Chewz with your friends
       icon: card2

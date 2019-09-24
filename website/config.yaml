@@ -12,7 +12,7 @@ params:
     title: Deciding what to eat was never so easy.
     subtitle: Get the app and start chewzing!
     buttontext: Download beta
-    buttonlink: https://chewz-hugo-webiste.s3-us-west-1.amazonaws.com/app.md
+    buttonlink: https://chewz.s3-us-west-1.amazonaws.com/chewz_app.html
     # Hero image (from static/images/___)
     image: illustrations/worker1.png
   section1:

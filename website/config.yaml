@@ -28,7 +28,7 @@ params:
       text: 50x faster than your normal food chewzing experience. 
       url: https://chewz.s3-us-west-1.amazonaws.com/chewz_app.html
       buttonText: So what is Chewz?
-    - title: food chewzing party!
+    - title: Food chewzing party!
       icon: card2
       text: You’re busy, so are all your buddies. Time for chewzing!
       url: https://chewz.s3-us-west-1.amazonaws.com/chewz_group.html

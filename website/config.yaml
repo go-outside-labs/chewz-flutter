@@ -37,18 +37,7 @@ params:
       buttonText: Learn about Chewz AI
   section2: false
   section3: false
-  section4:
-    title: Everybody Loves Chewzing
-    clients:
-    - name: 
-      quote: Finding good vegan restaurants is hard! Every time you want to try a new dish, you never know what you will get! When I chewz I have access to many more menu pictures! I love it!
-      img: 1
-    - name: 
-      quote: So many options, restaurants, and most of the menu items don't have pictures. Chewz transforms the way you experience eating. It’s no longer a task. It’s straight to the point.
-      img: 2
-    - name: 
-      quote: Every time my friends and I needed to pick what to eat, we used to spend hours trying to decide which restaurant. It was so tiring! Now we are chewzing and having a good time.
-      img: 3
+  section4: false
   section5: false
   footer:
     socialmedia:

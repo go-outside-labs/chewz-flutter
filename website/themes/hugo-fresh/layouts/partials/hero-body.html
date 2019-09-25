@@ -3,6 +3,8 @@
 {{- $subtitle   := index $hero "subtitle" }}
 {{- $buttonText := index $hero "buttontext" }}
 {{- $buttonLink := index $hero "buttonlink" }}
+{{- $buttonText1 := index $hero "buttontext1" }}
+{{- $buttonLink1 := index $hero "buttonlink1" }}
 {{- $image      := index $hero "image" }}
 <div class="hero-body">
   <div class="container">
@@ -16,10 +18,14 @@
           {{ . }}
         </h2>
         {{ end }}
-        <p>
+        <p><div>
           <a class="button cta rounded primary-btn raised" href="{{ $buttonLink }}">
             {{ $buttonText }}
           </a>
+        </div> <br> <div>
+          <a class="button cta rounded primary-btn raised" href="{{ $buttonLink1 }}">
+              {{ $buttonText1 }}
+            </a></div>
         </p>
       </div>
       <div class="column is-5 is-offset-1">

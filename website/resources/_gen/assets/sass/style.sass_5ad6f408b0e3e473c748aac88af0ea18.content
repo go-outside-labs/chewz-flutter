@@ -6117,7 +6117,7 @@ label.panel-block {
   .hero.is-halfheight {
     min-height: 50vh; }
   .hero.is-fullheight {
-    min-height: 100vh; }
+    min-height: 80vh; }
 
 .hero-video {
   overflow: hidden; }
@@ -6185,7 +6185,7 @@ Navbar
   transition: all .3s;
   z-index: 99; }
   .navbar.is-fresh .container {
-    min-height: 4rem; }
+    min-height: 2rem; }
   .navbar.is-fresh.no-shadow {
     box-shadow: none !important; }
   .navbar.is-fresh .navbar-burger {

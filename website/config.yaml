@@ -10,19 +10,14 @@ params:
     sizes: [400,600]
   hero:
     title: Deciding what to eat was never so easy.
-    subtitle: Let Chewz help you and your friends pick the food you all really want
-    buttontext: Download Chewz
+    subtitle: Chewz helps you and your friends pick the food you all really want
+    buttontext: Download Chewz iOS App
     buttonlink: https://mailchi.mp/0e92b7716009/chewz
     # Hero image (from static/images/___)
     image: illustrations/worker1.png
   section1:
     title: Take the work out of chewzing 
     tiles:
-    - title: Science + food = 😋✨ 
-      icon: card5
-      text: Chewz's algorithm takes food selection to the next level.
-      url: https://chewz.s3-us-west-1.amazonaws.com/chewz_science.html
-      buttonText: Learn about Chewz AI
     - title: Chewz smarter, not harder
       icon: card3
       text: 50x faster than your normal food chewzing experience. 
@@ -33,6 +28,11 @@ params:
       text: You’re busy, so are all your buddies. Time for chewzing!
       url: https://chewz.s3-us-west-1.amazonaws.com/chewz_group.html
       buttonText: Learn about Chews Friends
+    - title: Science + food = 😋✨ 
+      icon: card5
+      text: Chewz's algorithm takes food selection to the next level.
+      url: https://chewz.s3-us-west-1.amazonaws.com/chewz_science.html
+      buttonText: Learn about Chewz AI
   section2: false
   section3: false
   section4:

@@ -11,9 +11,9 @@ params:
   hero:
     title: Deciding what to eat was never so easy.
     subtitle: Chewz helps you and your friends pick the food you all really want
-    buttontext: Download Chewz iOS App
+    buttontext: Chewz iOS App
     buttonlink: https://mailchi.mp/0e92b7716009/chewz
-    buttontext1: Download Chewz Android App
+    buttontext1: Chewz Android App
     buttonlink1: https://mailchi.mp/0e92b7716009/chewz
     # Hero image (from static/images/___)
     image: illustrations/worker1.png

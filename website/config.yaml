@@ -49,8 +49,6 @@ params:
       icon: github
     - link: https://www.instagram.com/letschewz/
       icon: instagram  
-    - link: https://twitter.com/letschewz
-      icon: twitter    
     quicklinks:
       column1:
         title: Enterprise

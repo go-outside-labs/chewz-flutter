@@ -1,0 +1,13 @@
+venv
+*.pyc
+wadl.xml
+*.egg-info
+*.log
+.eggs
+build
+dist
+insta_args.txt
+.idea
+README.rst
+*.sh
+pictures/

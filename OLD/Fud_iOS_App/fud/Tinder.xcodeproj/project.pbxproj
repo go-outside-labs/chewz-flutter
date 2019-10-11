@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36BDCE955A4632EC8CE780DE /* Pods_Tinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BB375D3B1572CD5709FB57F /* Pods_Tinder.framework */; };
+		C31F11FE220A515900871FC1 /* SendMessageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31F11FD220A515900871FC1 /* SendMessageButton.swift */; };
+		C31F1200220A547B00871FC1 /* KeepSwipingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31F11FF220A547B00871FC1 /* KeepSwipingButton.swift */; };
+		C34D499521FBFF63008E8010 /* Extensions+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34D499421FBFF63008E8010 /* Extensions+UIView.swift */; };
+		C34D499821FC120B008E8010 /* HomeBottomControlsStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34D499721FC120B008E8010 /* HomeBottomControlsStackView.swift */; };
+		C34D499A21FC175C008E8010 /* TopNavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34D499921FC175C008E8010 /* TopNavigationStackView.swift */; };
+		C34D499C21FC2563008E8010 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34D499B21FC2563008E8010 /* CardView.swift */; };
+		C34D499F21FC3921008E8010 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34D499E21FC3921008E8010 /* User.swift */; };
+		C34D49A321FC449A008E8010 /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34D49A221FC449A008E8010 /* CardViewModel.swift */; };
+		C34D49A521FC51BD008E8010 /* Advertiser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34D49A421FC51BD008E8010 /* Advertiser.swift */; };
+		C36CFB382206C2E300437F6F /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36CFB372206C2E300437F6F /* SettingsController.swift */; };
+		C36CFB3A2206D40900437F6F /* SettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36CFB392206D40900437F6F /* SettingsCell.swift */; };
+		C36CFB3C2206F36100437F6F /* AgeRangeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36CFB3B2206F36100437F6F /* AgeRangeCell.swift */; };
+		C36CFB3E220709D100437F6F /* Firebase+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36CFB3D220709D100437F6F /* Firebase+Utils.swift */; };
+		C36CFB40220714D900437F6F /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36CFB3F220714D900437F6F /* LoginController.swift */; };
+		C36CFB4222072AB300437F6F /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36CFB4122072AB300437F6F /* LoginViewModel.swift */; };
+		C379FC6A21F8A27200DD05C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C379FC6921F8A27200DD05C3 /* AppDelegate.swift */; };
+		C379FC6C21F8A27200DD05C3 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C379FC6B21F8A27200DD05C3 /* HomeController.swift */; };
+		C379FC6F21F8A27200DD05C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C379FC6D21F8A27200DD05C3 /* Main.storyboard */; };
+		C379FC7121F8A27200DD05C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C379FC7021F8A27200DD05C3 /* Assets.xcassets */; };
+		C379FC7421F8A27200DD05C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C379FC7221F8A27200DD05C3 /* LaunchScreen.storyboard */; };
+		C392CE052209790D0044B10A /* PhotoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C392CE042209790D0044B10A /* PhotoController.swift */; };
+		C392CE072209BFD00044B10A /* MatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C392CE062209BFD00044B10A /* MatchView.swift */; };
+		C396853B21FD745800E67F65 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C396853A21FD745800E67F65 /* RegistrationController.swift */; };
+		C396853D21FD7A6C00E67F65 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C396853C21FD7A6C00E67F65 /* CustomTextField.swift */; };
+		C396853F21FDA67400E67F65 /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C396853E21FDA67400E67F65 /* RegistrationViewModel.swift */; };
+		C396854121FDB4C000E67F65 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C396854021FDB4C000E67F65 /* GoogleService-Info.plist */; };
+		C396854321FDC0F400E67F65 /* Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C396854221FDC0F400E67F65 /* Bindable.swift */; };
+		C3A2E3C32207DD9B00D95674 /* UserDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A2E3C22207DD9B00D95674 /* UserDetailsController.swift */; };
+		C3A2E3C52208488B00D95674 /* SwipePhotosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A2E3C42208488B00D95674 /* SwipePhotosController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		30EF9C7A485B12E94178A83C /* Pods-Tinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tinder.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tinder/Pods-Tinder.release.xcconfig"; sourceTree = "<group>"; };
+		9BB375D3B1572CD5709FB57F /* Pods_Tinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C31F11FD220A515900871FC1 /* SendMessageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMessageButton.swift; sourceTree = "<group>"; };
+		C31F11FF220A547B00871FC1 /* KeepSwipingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeepSwipingButton.swift; sourceTree = "<group>"; };
+		C34D499421FBFF63008E8010 /* Extensions+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+UIView.swift"; sourceTree = "<group>"; };
+		C34D499721FC120B008E8010 /* HomeBottomControlsStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBottomControlsStackView.swift; sourceTree = "<group>"; };
+		C34D499921FC175C008E8010 /* TopNavigationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavigationStackView.swift; sourceTree = "<group>"; };
+		C34D499B21FC2563008E8010 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		C34D499E21FC3921008E8010 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C34D49A221FC449A008E8010 /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
+		C34D49A421FC51BD008E8010 /* Advertiser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advertiser.swift; sourceTree = "<group>"; };
+		C36CFB372206C2E300437F6F /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		C36CFB392206D40900437F6F /* SettingsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCell.swift; sourceTree = "<group>"; };
+		C36CFB3B2206F36100437F6F /* AgeRangeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeRangeCell.swift; sourceTree = "<group>"; };
+		C36CFB3D220709D100437F6F /* Firebase+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Firebase+Utils.swift"; sourceTree = "<group>"; };
+		C36CFB3F220714D900437F6F /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		C36CFB4122072AB300437F6F /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		C379FC6621F8A27200DD05C3 /* Tinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C379FC6921F8A27200DD05C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C379FC6B21F8A27200DD05C3 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		C379FC6E21F8A27200DD05C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C379FC7021F8A27200DD05C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C379FC7321F8A27200DD05C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C379FC7521F8A27200DD05C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C392CE042209790D0044B10A /* PhotoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoController.swift; sourceTree = "<group>"; };
+		C392CE062209BFD00044B10A /* MatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchView.swift; sourceTree = "<group>"; };
+		C396853A21FD745800E67F65 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
+		C396853C21FD7A6C00E67F65 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		C396853E21FDA67400E67F65 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
+		C396854021FDB4C000E67F65 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C396854221FDC0F400E67F65 /* Bindable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bindable.swift; sourceTree = "<group>"; };
+		C3A2E3C22207DD9B00D95674 /* UserDetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsController.swift; sourceTree = "<group>"; };
+		C3A2E3C42208488B00D95674 /* SwipePhotosController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipePhotosController.swift; sourceTree = "<group>"; };
+		F82A179476F716179C0F672E /* Pods-Tinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tinder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tinder/Pods-Tinder.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C379FC6321F8A27200DD05C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36BDCE955A4632EC8CE780DE /* Pods_Tinder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77BD2A9B31F4F2A0D3CF2707 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BB375D3B1572CD5709FB57F /* Pods_Tinder.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C34D499321FBFEA1008E8010 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C34D499421FBFF63008E8010 /* Extensions+UIView.swift */,
+				C36CFB3D220709D100437F6F /* Firebase+Utils.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C34D499621FC11BA008E8010 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C34D499721FC120B008E8010 /* HomeBottomControlsStackView.swift */,
+				C34D499921FC175C008E8010 /* TopNavigationStackView.swift */,
+				C34D499B21FC2563008E8010 /* CardView.swift */,
+				C396853C21FD7A6C00E67F65 /* CustomTextField.swift */,
+				C36CFB392206D40900437F6F /* SettingsCell.swift */,
+				C36CFB3B2206F36100437F6F /* AgeRangeCell.swift */,
+				C392CE062209BFD00044B10A /* MatchView.swift */,
+				C31F11FD220A515900871FC1 /* SendMessageButton.swift */,
+				C31F11FF220A547B00871FC1 /* KeepSwipingButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C34D499D21FC390C008E8010 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C34D499E21FC3921008E8010 /* User.swift */,
+				C34D49A421FC51BD008E8010 /* Advertiser.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C34D49A021FC42C9008E8010 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C379FC6B21F8A27200DD05C3 /* HomeController.swift */,
+				C396853A21FD745800E67F65 /* RegistrationController.swift */,
+				C396853E21FDA67400E67F65 /* RegistrationViewModel.swift */,
+				C396854221FDC0F400E67F65 /* Bindable.swift */,
+				C36CFB372206C2E300437F6F /* SettingsController.swift */,
+				C36CFB3F220714D900437F6F /* LoginController.swift */,
+				C36CFB4122072AB300437F6F /* LoginViewModel.swift */,
+				C3A2E3C22207DD9B00D95674 /* UserDetailsController.swift */,
+				C3A2E3C42208488B00D95674 /* SwipePhotosController.swift */,
+				C392CE042209790D0044B10A /* PhotoController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C34D49A121FC4479008E8010 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C34D49A221FC449A008E8010 /* CardViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C379FC5D21F8A27200DD05C3 = {
+			isa = PBXGroup;
+			children = (
+				C379FC6821F8A27200DD05C3 /* Tinder */,
+				C379FC6721F8A27200DD05C3 /* Products */,
+				D5B3F88909A258C235F62FF7 /* Pods */,
+				77BD2A9B31F4F2A0D3CF2707 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C379FC6721F8A27200DD05C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C379FC6621F8A27200DD05C3 /* Tinder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C379FC6821F8A27200DD05C3 /* Tinder */ = {
+			isa = PBXGroup;
+			children = (
+				C34D49A121FC4479008E8010 /* ViewModels */,
+				C34D499D21FC390C008E8010 /* Model */,
+				C34D499621FC11BA008E8010 /* Views */,
+				C34D49A021FC42C9008E8010 /* Controllers */,
+				C34D499321FBFEA1008E8010 /* Extensions */,
+				C379FC6921F8A27200DD05C3 /* AppDelegate.swift */,
+				C379FC6D21F8A27200DD05C3 /* Main.storyboard */,
+				C379FC7021F8A27200DD05C3 /* Assets.xcassets */,
+				C379FC7221F8A27200DD05C3 /* LaunchScreen.storyboard */,
+				C396854021FDB4C000E67F65 /* GoogleService-Info.plist */,
+				C379FC7521F8A27200DD05C3 /* Info.plist */,
+			);
+			path = Tinder;
+			sourceTree = "<group>";
+		};
+		D5B3F88909A258C235F62FF7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F82A179476F716179C0F672E /* Pods-Tinder.debug.xcconfig */,
+				30EF9C7A485B12E94178A83C /* Pods-Tinder.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C379FC6521F8A27200DD05C3 /* Tinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C379FC7821F8A27200DD05C3 /* Build configuration list for PBXNativeTarget "Tinder" */;
+			buildPhases = (
+				18CED566EAA30DB2EB8B94B8 /* [CP] Check Pods Manifest.lock */,
+				C379FC6221F8A27200DD05C3 /* Sources */,
+				C379FC6321F8A27200DD05C3 /* Frameworks */,
+				C379FC6421F8A27200DD05C3 /* Resources */,
+				7EE0685656C9E141299AE5CD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tinder;
+			productName = Tinder;
+			productReference = C379FC6621F8A27200DD05C3 /* Tinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C379FC5E21F8A27200DD05C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = BekzodRakhmatov;
+				TargetAttributes = {
+					C379FC6521F8A27200DD05C3 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = C379FC6121F8A27200DD05C3 /* Build configuration list for PBXProject "Tinder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C379FC5D21F8A27200DD05C3;
+			productRefGroup = C379FC6721F8A27200DD05C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C379FC6521F8A27200DD05C3 /* Tinder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C379FC6421F8A27200DD05C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C379FC7421F8A27200DD05C3 /* LaunchScreen.storyboard in Resources */,
+				C396854121FDB4C000E67F65 /* GoogleService-Info.plist in Resources */,
+				C379FC7121F8A27200DD05C3 /* Assets.xcassets in Resources */,
+				C379FC6F21F8A27200DD05C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18CED566EAA30DB2EB8B94B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tinder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EE0685656C9E141299AE5CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tinder/Pods-Tinder-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tinder/Pods-Tinder-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tinder/Pods-Tinder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C379FC6221F8A27200DD05C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C396854321FDC0F400E67F65 /* Bindable.swift in Sources */,
+				C379FC6C21F8A27200DD05C3 /* HomeController.swift in Sources */,
+				C396853F21FDA67400E67F65 /* RegistrationViewModel.swift in Sources */,
+				C396853D21FD7A6C00E67F65 /* CustomTextField.swift in Sources */,
+				C34D499821FC120B008E8010 /* HomeBottomControlsStackView.swift in Sources */,
+				C34D49A521FC51BD008E8010 /* Advertiser.swift in Sources */,
+				C379FC6A21F8A27200DD05C3 /* AppDelegate.swift in Sources */,
+				C3A2E3C32207DD9B00D95674 /* UserDetailsController.swift in Sources */,
+				C31F1200220A547B00871FC1 /* KeepSwipingButton.swift in Sources */,
+				C392CE072209BFD00044B10A /* MatchView.swift in Sources */,
+				C36CFB3C2206F36100437F6F /* AgeRangeCell.swift in Sources */,
+				C34D499521FBFF63008E8010 /* Extensions+UIView.swift in Sources */,
+				C36CFB3E220709D100437F6F /* Firebase+Utils.swift in Sources */,
+				C34D49A321FC449A008E8010 /* CardViewModel.swift in Sources */,
+				C34D499C21FC2563008E8010 /* CardView.swift in Sources */,
+				C36CFB382206C2E300437F6F /* SettingsController.swift in Sources */,
+				C36CFB40220714D900437F6F /* LoginController.swift in Sources */,
+				C34D499A21FC175C008E8010 /* TopNavigationStackView.swift in Sources */,
+				C392CE052209790D0044B10A /* PhotoController.swift in Sources */,
+				C396853B21FD745800E67F65 /* RegistrationController.swift in Sources */,
+				C34D499F21FC3921008E8010 /* User.swift in Sources */,
+				C3A2E3C52208488B00D95674 /* SwipePhotosController.swift in Sources */,
+				C31F11FE220A515900871FC1 /* SendMessageButton.swift in Sources */,
+				C36CFB4222072AB300437F6F /* LoginViewModel.swift in Sources */,
+				C36CFB3A2206D40900437F6F /* SettingsCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C379FC6D21F8A27200DD05C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C379FC6E21F8A27200DD05C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C379FC7221F8A27200DD05C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C379FC7321F8A27200DD05C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C379FC7621F8A27200DD05C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C379FC7721F8A27200DD05C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C379FC7921F8A27200DD05C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F82A179476F716179C0F672E /* Pods-Tinder.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y77A582JHV;
+				INFOPLIST_FILE = Tinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bekzodrakhmatov.Tinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C379FC7A21F8A27200DD05C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30EF9C7A485B12E94178A83C /* Pods-Tinder.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y77A582JHV;
+				INFOPLIST_FILE = Tinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bekzodrakhmatov.Tinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C379FC6121F8A27200DD05C3 /* Build configuration list for PBXProject "Tinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C379FC7621F8A27200DD05C3 /* Debug */,
+				C379FC7721F8A27200DD05C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C379FC7821F8A27200DD05C3 /* Build configuration list for PBXNativeTarget "Tinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C379FC7921F8A27200DD05C3 /* Debug */,
+				C379FC7A21F8A27200DD05C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C379FC5E21F8A27200DD05C3 /* Project object */;
+}

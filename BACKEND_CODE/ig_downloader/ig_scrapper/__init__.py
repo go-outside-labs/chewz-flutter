@@ -1,0 +1,1 @@
+from ig_scrapper.app import InstagramScraper

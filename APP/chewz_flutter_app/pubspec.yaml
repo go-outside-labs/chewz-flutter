@@ -1,0 +1,53 @@
+name: chewz
+description: time to chewz
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.0
+  flutter_launcher_icons: ^0.6.1
+
+dependency_overrides:
+  image: 2.0.7
+
+flutter_icons:
+  image_path: "assets/logo_icon_app.png"
+  ios: yes
+  android: yes
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+  - assets/examples/burger.jpg
+  - assets/examples/nuggets.jpg
+  - assets/examples/salad.jpg
+  - assets/examples/chile.jpg
+  - assets/examples/pizza.jpg
+  - assets/examples/fish.jpg
+  - assets/chewz_logo.png
+  - assets/no.png
+  - assets/yes.png
+  - assets/plus.png
+  - assets/small_logo.png
+  - assets/logo_icon_app.png
+  - assets/group.png
+  - assets/user.png
+  - assets/a1.png
+  - assets/a2.png
+  - assets/a3.png
+
+
+fonts:
+  - family: "Kitten"
+    fonts:
+        - asset: fonts/KittenSwashTrial.ttf

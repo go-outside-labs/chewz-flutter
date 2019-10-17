@@ -1,9 +1,0 @@
-version: '3'
-services:
-  web:
-    build: .
-    ports:
-     - 1313:1313
-    volumes:
-     - ~/Projects/CHEWZ/chewz_website/website:/app
-     

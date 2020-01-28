@@ -1,6 +1,6 @@
-# Chewz Flutter iOS & Android App
+# Flutter iOS & Android App
 
-A tinder for food written in Dart and Flutter.
+Chewz App written in Dart and Flutter.
 
 ```
 open -a Simulator

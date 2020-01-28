@@ -1,4 +1,7 @@
-# Chewz IG Downloader
+# Chewz Instagram Downloader
+
+Given a handle (or several), download all pictures from them.
+
 
 ## Install
 
@@ -22,4 +25,3 @@ To use Chewz's restaurant list locally:
 ig_scrapper -t image --destination ./pictures --filename ./restaurant_list.txt --media-metadata --profile-metadata --retain-username
 ```
 
-To upload to S3:

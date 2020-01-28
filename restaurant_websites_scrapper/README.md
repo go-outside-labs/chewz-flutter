@@ -1,6 +1,6 @@
 # Restaurant Websites' Scrapper
 
-Scrape restaurants's websites and retrieve data (such as ig handler).
+Scrape restaurants's websites and retrieve data (such as instagram handler).
 
 
 ## Install

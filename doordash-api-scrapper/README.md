@@ -1,6 +1,6 @@
 # Doordash API Scrapper
 
-Quick script to pull basic business info out of yelp api and doordash endpoints.
+Quick script to pull basic business info out of Yelp API and Doordash endpoints.
 
 
 ## Install
@@ -24,11 +24,9 @@ Fill in global variables on top of `fud_report/fud_report.py` and run:
 fud_report
 ```
 
-## TODO
-
-* add examples for reponses & requests
 
 ## Enpoints
 
 * [Business API](https://www.yelp.com/developers/documentation/v3/business) - `business_query(...)`
 * [Search API](https://www.yelp.com/developers/documentation/v3/business_search) - `search_query(...)`
+

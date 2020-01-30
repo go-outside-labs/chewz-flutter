@@ -1,3 +1,5 @@
+![chewz logo](https://raw.githubusercontent.com/bt3gl/Chewz-Tinder-For-Food/master/chewz_flutter_app/assets/chewz_logo.png)
+
 # Chewz App - Tinder for Food
 
 

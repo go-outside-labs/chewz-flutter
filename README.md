@@ -9,10 +9,3 @@
 * [Restaurant Websites' Scrapper](https://github.com/bt3gl/Chewz-Tinder-For-Food/tree/master/restaurant_websites_scrapper).
 * [Füd iOS App](https://github.com/bt3gl/Chewz-Tinder-For-Food/tree/master/fud_ios_app).
 
-
-
----
-
-### If you are using these resources, please consider
-
-<a href="https://www.buymeacoffee.com/miavonpizza" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/arial-pink.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;" ></a>
